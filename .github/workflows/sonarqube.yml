@@ -14,7 +14,8 @@ jobs:
   Analysis:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Teste e Coverage
+        uses: actions/checkout@v2
         with: 
           fetch-depth: 0 
       - name: Install Dependencies
